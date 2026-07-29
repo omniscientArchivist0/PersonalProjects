@@ -1,0 +1,404 @@
+name "Dimensional Controller"
+
+-- Dimensional Controller --
+-- Written by omniscientArchvist --
+
+------------------
+------------------
+
+-- Clear --
+every redstone pulse do 
+
+if ConditionB has gt 0 then
+    
+    -- [1] [A0] Terra
+    if ConditionB has eq 1 minecraft:planks then
+        input from ChestClear, InputSideA
+        output to Terra
+        forget
+        input from SideA slot 0
+        output to ChestSideA slot 0
+        forget
+        input from ConditionB
+        output to FinaleB
+        forget
+    end
+
+    -- [2] [A1] Nether
+    if ConditionB has eq 2 minecraft:planks then
+        input from ChestClear, InputSideA
+        output to Nether
+        forget
+        input from SideA slot 0
+        output to ChestSideA slot 1
+        forget
+        input from ConditionB
+        output to FinaleB
+        forget
+    end   
+
+    -- [3] [A2] End
+    if ConditionB has eq 3 minecraft:planks then
+        input from ChestClear, InputSideA
+        output to "End"
+        forget
+        input from SideA slot 0
+        output to ChestSideA slot 2
+        forget
+        input from ConditionB
+        output to FinaleB
+        forget
+    end   
+
+    -- [4] [A3] Telos
+    if ConditionB has eq 4 minecraft:planks then
+        input from ChestClear, InputSideA
+        output to Telos
+        forget
+        input from SideA slot 0
+        output to ChestSideA slot 3
+        forget
+        input from ConditionB
+        output to FinaleB
+        forget
+    end  
+    
+    -- [5] [A4] Aether
+    if ConditionB has eq 5 minecraft:planks then
+        input from ChestClear, InputSideA
+        output to Aether
+        forget
+        input from SideA slot 0
+        output to ChestSideA slot 4
+        forget
+        input from ConditionB
+        output to FinaleB
+        forget
+    end
+  
+    -- [6] [A5] Erebus
+    if ConditionB has eq 6 minecraft:planks then
+        input from ChestClear, InputSideA
+        output to Erebus
+        forget
+        input from SideA slot 0
+        output to ChestSideA slot 5
+        forget
+        input from ConditionB
+        output to FinaleB
+        forget
+    end
+
+    -- [7] [B0] Deep Dark
+    if ConditionB has eq 7 minecraft:planks then
+        input from ChestClear, InputSideB
+        output to "Deep Dark"
+        forget
+        input from SideB slot 0
+        output to ChestSideB slot 0
+        forget
+        input from ConditionB
+        output to FinaleB
+        forget
+    end
+
+    -- [8] [B1] Emptiness
+    if ConditionB has eq 8 minecraft:planks then
+        input from ChestClear, InputSideB
+        output to Emptiness
+        forget
+        input from SideB slot 0
+        output to ChestSideB slot 1
+        forget
+        input from ConditionB
+        output to FinaleB
+        forget
+    end
+
+    -- [9] [B2] Twilight Forest
+    if ConditionB has eq 9 minecraft:planks then
+        input from ChestClear, InputSideB
+        output to Twilight
+        forget
+        input from SideB slot 0
+        output to ChestSideB slot 2
+        forget
+        input from ConditionB
+        output to FinaleB
+        forget
+    end
+
+    -- [10] [B3] Iceika
+    if ConditionB has eq 10 minecraft:planks then
+        input from ChestClear, InputSideB
+        output to Iceika
+        forget
+        input from SideB slot 0
+        output to ChestSideB slot 3
+        forget
+        input from ConditionB
+        output to FinaleB
+        forget
+    end
+
+    -- [11] [C0] Arcana
+    if ConditionB has eq 11 minecraft:planks then
+        input from ChestClear, InputSideC
+        output to Arcana
+        forget
+        input from SideC slot 0
+        output to ChestSideC slot 0
+        forget
+        input from ConditionB
+        output to FinaleB
+        forget
+    end
+
+    -- [12] [C1] Betweenlands
+    if ConditionB has eq 12 minecraft:planks then
+        input from ChestClear, InputSideC
+        output to Betweenlands
+        forget
+        input from SideC slot 0
+        output to ChestSideC slot 1
+        forget
+        input from ConditionB
+        output to FinaleB
+        forget
+    end
+
+    -- [13] [C2] Abyssal Wasteland
+    if ConditionB has eq 13 minecraft:planks then
+        input from ChestClear, InputSideC
+        output to Wasteland
+        forget
+        input from SideC slot 0
+        output to ChestSideC slot 2
+        forget
+        input from ConditionB
+        output to FinaleB
+        forget
+    end
+end
+end
+
+------------------
+------------------
+-- Main --
+every 200 ticks do
+
+    if Condition has gt 0 minecraft:cobblestone then
+
+    input from Potions
+    output retain 2 to each Applier
+    forget
+
+    -- [1] [A0] Terra
+    if Condition has eq 1 minecraft:cobblestone then   
+        input 1 from FinaleB slot 0
+        output to ConditionB slot 0               
+        forget                                                                                                                                                 
+        input from ChestSideA slot 0
+        output to SideA slot 0
+        forget
+        input from Terra
+        output to InputSideA
+        forget
+        input from Condition slots 0,1,2,3
+        output to Finale slot 0
+        forget
+    end
+
+    -- [2] [A1] Nether
+    if Condition has eq 2 minecraft:cobblestone then
+        input 2 from FinaleB slot 0
+        output to ConditionB slot 0
+        forget
+        input from ChestSideA slot 1
+        output to SideA slot 0
+        forget
+        input from Nether
+        output to InputSideA
+        forget
+        input from Condition slots 0,1,2,3
+        output to Finale slot 0
+        forget
+    end   
+
+    -- [3] [A2] End
+    if Condition has eq 3 minecraft:cobblestone then       
+        input 3 from FinaleB slot 0
+        output to ConditionB slot 0 
+        forget
+        input from ChestSideA slot 2
+        output to SideA slot 0
+        forget
+        input from "End"
+        output to InputSideA
+        forget
+        input from Condition slots 0,1,2,3
+        output to Finale slot 0
+        forget
+    end   
+
+    -- [4] [A3] Telos
+    if Condition has eq 4 minecraft:cobblestone then
+        input 4 from FinaleB slot 0
+        output to ConditionB slot 0
+        forget
+        input from ChestSideA slot 3
+        output to SideA slot 0
+        forget
+        input from Telos
+        output to InputSideA
+        forget
+        input from Condition slots 0,1,2,3
+        output to Finale slot 0
+        forget
+    end  
+    
+    -- [5] [A4] Aether
+    if Condition has eq 5 minecraft:cobblestone then
+        input 5 from FinaleB slot 0
+        output to ConditionB slot 0  
+        forget  
+        input from ChestSideA slot 4
+        output to SideA slot 0
+        forget
+        input from Aether
+        output to InputSideA
+        forget
+        input from Condition slots 0,1,2,3
+        output to Finale slot 0
+        forget
+    end
+  
+    -- [6] [A5] Erebus
+    if Condition has eq 6 minecraft:cobblestone then
+        input 6 from FinaleB slot 0
+        output to ConditionB slot 0   
+        forget 
+        input from ChestSideA slot 5
+        output to SideA slot 0
+        forget
+        input from Erebus
+        output to InputSideA
+        forget
+        input from Condition slots 0,1,2,3
+        output to Finale slot 0
+        forget
+        end
+
+    -- [7] [B0] Deep Dark
+    if Condition has eq 7 minecraft:cobblestone then
+        input 7 from FinaleB slot 0
+        output to ConditionB slot 0  
+        forget  
+        input from ChestSideB slot 0
+        output to SideB slot 0
+        forget
+        input from "Deep Dark"
+        output to InputSideB
+        forget
+        input from Condition slots 0,1,2,3
+        output to Finale slot 0
+        forget
+    end
+
+    -- [8] [B1] Emptiness
+    if Condition has eq 8 minecraft:cobblestone then
+        input 8 from FinaleB slot 0
+        output to ConditionB slot 0  
+        forget
+        input from ChestSideB slot 1
+        output to SideB slot 0
+        forget
+        input from Emptiness
+        output to InputSideB
+        forget
+        input from Condition slots 0,1,2,3
+        output to Finale slot 0
+        forget
+    end
+
+    -- [9] [B2] Twilight Forest
+    if Condition has eq 9 minecraft:cobblestone then
+        input 9 from FinaleB slot 0
+        output to ConditionB slot 0   
+        forget 
+        input from ChestSideB slot 2
+        output to SideB slot 0
+        forget
+        input from Twilight
+        output to InputSideB
+        forget
+        input from Condition slots 0,1,2,3
+        output to Finale slot 0
+        forget
+    end
+
+    -- [10] [B3] Iceika
+    if Condition has eq 10 minecraft:cobblestone then
+        input 10 from FinaleB slot 0
+        output to ConditionB slot 0
+        forget
+        input from ChestSideB slot 3
+        output to SideB slot 0
+        forget
+        input from Iceika
+        output to InputSideB
+        forget
+        input from Condition slots 0,1,2,3
+        output to Finale slot 0
+        forget
+    end
+
+    -- [11] [C0] Arcana
+    if Condition has eq 11 minecraft:cobblestone then
+        input 11 from FinaleB slot 0
+        output to ConditionB slot 0
+        forget
+        input from ChestSideC slot 0
+        output to SideC slot 0
+        forget
+        input from Arcana
+        output to InputSideC
+        forget
+        input from Condition slots 0,1,2,3
+        output to Finale slot 0
+        forget
+    end
+
+    -- [12] [C1] Betweenlands
+    if Condition has eq 12 minecraft:cobblestone then
+        input 12 from FinaleB slot 0
+        output to ConditionB slot 0 
+        forget
+        input from ChestSideC slot 1
+        output to SideC slot 0
+        forget
+        input from Betweenlands
+        output to InputSideC
+        forget
+        input from Condition slots 0,1,2,3
+        output to Finale slot 0
+        forget
+    end
+
+    -- [13] [C2] Abyssal Wasteland
+    if Condition has eq 13 minecraft:cobblestone then
+        input 13 from FinaleB slot 0
+        output to ConditionB slot 0
+        forget
+        input from ChestSideC slot 2
+        output to SideC slot 0
+        forget
+        input from Wasteland
+        output to InputSideC
+        forget
+        input from Condition slots 0,1,2,3
+        output to Finale slot 0
+        forget
+    end
+end
+end
