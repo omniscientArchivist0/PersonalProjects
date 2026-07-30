@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="41be357e-27d6-4815-be2f-fa322feb857a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/libs/theoneprobe-1.12-1.4.28.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="3FYxjyor46lf3SyplMk9v4BRckO" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="jdk.selected.JAVA_MODULE" value="21" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/libs" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+    <property name="show.unlinked.gradle.project.popup" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\CLIENTE\Projetos\Programacao\Dank-Storage\libs" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="Dank-Storage" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.25134.95" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-IU-261.25134.95" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="41be357e-27d6-4815-be2f-fa322feb857a" name="Changes" comment="" />
+      <created>1782265943212</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1782265943212</updated>
+      <workItem from="1782265944649" duration="83000" />
+      <workItem from="1782266763104" duration="2000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="740" y="257" key="FileChooserDialogImpl" timestamp="1782266883042">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="740" y="257" key="FileChooserDialogImpl/0.0.1920.1032/-1366.0.1366.720@0.0.1920.1032" timestamp="1782266883042" />
+    <state x="461" y="158" key="SettingsEditor" timestamp="1782266959368">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="461" y="158" key="SettingsEditor/0.0.1920.1032/-1366.0.1366.720@0.0.1920.1032" timestamp="1782266959368" />
+    <state x="661" y="340" key="com.intellij.ide.util.TipDialog" timestamp="1782266778940">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="661" y="340" key="com.intellij.ide.util.TipDialog/0.0.1920.1032/-1366.0.1366.720@0.0.1920.1032" timestamp="1782266778940" />
+    <state x="361" y="213" key="new project wizard" timestamp="1782267987036">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="361" y="213" key="new project wizard/0.0.1920.1032/-1366.0.1366.720@0.0.1920.1032" timestamp="1782267987036" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1782266515874">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1032/-1366.0.1366.720@0.0.1920.1032" timestamp="1782266515874" />
+  </component>
+</project>

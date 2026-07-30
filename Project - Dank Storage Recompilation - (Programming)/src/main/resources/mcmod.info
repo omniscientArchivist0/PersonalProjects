@@ -1,0 +1,15 @@
+[
+{
+  "modid": "dankstorage",
+  "name": "Dank Storage",
+  "description": "Storage that's dank in many ways.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Tfarecmin"],
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

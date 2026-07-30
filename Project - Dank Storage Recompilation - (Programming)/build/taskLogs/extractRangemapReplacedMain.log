@@ -1,0 +1,94 @@
+Unsupposrted library path: C:\Users\CLIENTE\Projetos\Programacao\Dank-Storage\build\classes\api
+Unsupposrted library path: C:\Users\CLIENTE\Projetos\Programacao\Dank-Storage\build\resources\api
+Symbol range map extraction starting
+Processing 30 files
+startProcessing "com/tfar/dankstorage/DankStorage.java" md5: 74ed2d4246c1c1f111ab9e1321b20811
+endProcessing "com/tfar/dankstorage/DankStorage.java"
+
+startProcessing "com/tfar/dankstorage/GuiHandler.java" md5: 08277657f67225c584c8def1a0458745
+endProcessing "com/tfar/dankstorage/GuiHandler.java"
+
+startProcessing "com/tfar/dankstorage/block/DankBlock.java" md5: 0ac39c1b7351ffebc2f55d2745d2c54b
+endProcessing "com/tfar/dankstorage/block/DankBlock.java"
+
+startProcessing "com/tfar/dankstorage/block/DankItemBlock.java" md5: 922afe55b8caa7b777ecaff6887a3abf
+endProcessing "com/tfar/dankstorage/block/DankItemBlock.java"
+
+startProcessing "com/tfar/dankstorage/capability/CapabilityDankStorage.java" md5: 639e229170015713eb00c06d8a97011c
+endProcessing "com/tfar/dankstorage/capability/CapabilityDankStorage.java"
+
+startProcessing "com/tfar/dankstorage/capability/CapabilityDankStorageProvider.java" md5: 3e89e2741ec1bb4217693067a3580754
+endProcessing "com/tfar/dankstorage/capability/CapabilityDankStorageProvider.java"
+
+startProcessing "com/tfar/dankstorage/client/Client.java" md5: 6551533988130baf09f398ddacff127e
+endProcessing "com/tfar/dankstorage/client/Client.java"
+
+startProcessing "com/tfar/dankstorage/client/RenderItemExtended.java" md5: 6fff86d9b1bd6559282b15e268700010
+endProcessing "com/tfar/dankstorage/client/RenderItemExtended.java"
+
+startProcessing "com/tfar/dankstorage/container/AbstractAbstractDankContainer.java" md5: 9da7657187f7f19b68966d38a515e7fc
+endProcessing "com/tfar/dankstorage/container/AbstractAbstractDankContainer.java"
+
+startProcessing "com/tfar/dankstorage/container/AbstractDankContainer.java" md5: ae725da89997c99447426672d4d9c6c8
+endProcessing "com/tfar/dankstorage/container/AbstractDankContainer.java"
+
+startProcessing "com/tfar/dankstorage/container/AbstractPortableDankContainer.java" md5: c20255e213215abe7807686a974dd8c8
+endProcessing "com/tfar/dankstorage/container/AbstractPortableDankContainer.java"
+
+startProcessing "com/tfar/dankstorage/container/DankContainers.java" md5: 9af1ecac3292e07e768ab8fe8a0eb9ee
+endProcessing "com/tfar/dankstorage/container/DankContainers.java"
+
+startProcessing "com/tfar/dankstorage/event/DankEventHandler.java" md5: 81dc4275114f0a3e0c4cd8f4e786be90
+endProcessing "com/tfar/dankstorage/event/DankEventHandler.java"
+
+startProcessing "com/tfar/dankstorage/inventory/DankHandler.java" md5: b207072e8a13634b2ccf58a9d0fb5f52
+endProcessing "com/tfar/dankstorage/inventory/DankHandler.java"
+
+startProcessing "com/tfar/dankstorage/inventory/DankSlot.java" md5: f76e1f8e08cbaf6c122cadb6aead3d7c
+endProcessing "com/tfar/dankstorage/inventory/DankSlot.java"
+
+startProcessing "com/tfar/dankstorage/inventory/LockedSlot.java" md5: 2bbdb65c20f2b68fb86b46f44680d5ba
+endProcessing "com/tfar/dankstorage/inventory/LockedSlot.java"
+
+startProcessing "com/tfar/dankstorage/inventory/PortableDankHandler.java" md5: 1c8f9edb3dcf0957cd65cd2a57a01e5f
+endProcessing "com/tfar/dankstorage/inventory/PortableDankHandler.java"
+
+startProcessing "com/tfar/dankstorage/network/CMessageChangeSlot.java" md5: 4cdb206246cf4ddaab52021d9befe3d9
+endProcessing "com/tfar/dankstorage/network/CMessageChangeSlot.java"
+
+startProcessing "com/tfar/dankstorage/network/CMessagePickBlock.java" md5: 4b19b7d79fe822c5737eebcadb4c75a6
+endProcessing "com/tfar/dankstorage/network/CMessagePickBlock.java"
+
+startProcessing "com/tfar/dankstorage/network/CMessageToggle.java" md5: b0354b815c8d64b3dfdb4fee869ea15e
+endProcessing "com/tfar/dankstorage/network/CMessageToggle.java"
+
+startProcessing "com/tfar/dankstorage/network/DankPacketHandler.java" md5: 1c06babc9b56a49ca72a6db984bb00d6
+endProcessing "com/tfar/dankstorage/network/DankPacketHandler.java"
+
+startProcessing "com/tfar/dankstorage/recipe/DankUpgradeRecipeFactory.java" md5: 961c27b30ee069e1d61c3d003f3fa9e4
+endProcessing "com/tfar/dankstorage/recipe/DankUpgradeRecipeFactory.java"
+
+startProcessing "com/tfar/dankstorage/screen/AbstractAbstractDankStorageScreen.java" md5: d05d1fa19e874c277df7a415ec2df4d5
+endProcessing "com/tfar/dankstorage/screen/AbstractAbstractDankStorageScreen.java"
+
+startProcessing "com/tfar/dankstorage/screen/AbstractDankStorageScreen.java" md5: 3c14be3cf883747e84fc1eba28af2798
+endProcessing "com/tfar/dankstorage/screen/AbstractDankStorageScreen.java"
+
+startProcessing "com/tfar/dankstorage/screen/AbstractPortableDankStorageScreen.java" md5: f83b6909852c7c4944d7d16a734ad73e
+endProcessing "com/tfar/dankstorage/screen/AbstractPortableDankStorageScreen.java"
+
+startProcessing "com/tfar/dankstorage/screen/DankScreens.java" md5: 99cdaf9620232e666b0ab334d13214eb
+endProcessing "com/tfar/dankstorage/screen/DankScreens.java"
+
+startProcessing "com/tfar/dankstorage/tile/AbstractDankStorageTile.java" md5: 6aefb28311af30aece12bb08e5f4d8e0
+endProcessing "com/tfar/dankstorage/tile/AbstractDankStorageTile.java"
+
+startProcessing "com/tfar/dankstorage/tile/DankTiles.java" md5: 80fbc6b0ded3fd41342a2ada2480c6a0
+endProcessing "com/tfar/dankstorage/tile/DankTiles.java"
+
+startProcessing "com/tfar/dankstorage/util/DankConstants.java" md5: eac44094ec17351698789856c8b35e87
+endProcessing "com/tfar/dankstorage/util/DankConstants.java"
+
+startProcessing "com/tfar/dankstorage/util/Utils.java" md5: 814e90bb706db0af6d4eb622256fbdf6
+endProcessing "com/tfar/dankstorage/util/Utils.java"
+
